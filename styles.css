@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: none;
+    background-image: url('background/image.jpg');
+  }
+  
+  .music-player {
+    border: 1px solid skyblue;
+    padding: 20px;
+    text-align: center;
+    background-color: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .player-controls button {
+    margin: 5px;
+  }
+  .control-button {
+    background-color: none ; /* Change this color to your desired background color */
+    color: black; /* Add text color to ensure readability */
+    border: none;
+    padding: 5px 10px;
+  }
+  
+  .volume-control {
+    margin-top: 20px;
+  }
+  
+  .playlist ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .playlist li {
+    margin: 5px;
+    cursor: pointer;
+  }
+  
